@@ -740,15 +740,22 @@ body {
 }
 
 .video-wrapper {
-  background: var(--obsidian);
-  border-bottom: 1px solid var(--hairline-gold);
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 9 / 16;
+  margin: 24px auto 0;
+  border-radius: 26px;
+  overflow: hidden;
+  border: 2px solid #d4af37;
+  background: #0b0f17;
+  box-shadow: 0 20px 50px rgba(15, 20, 28, 0.18);
 }
 
 .walkthrough-video {
   width: 100%;
+  height: 100%;
   display: block;
-  aspect-ratio: 16 / 9;
-  background: var(--obsidian);
+  object-fit: cover;
 }
 
 .testimonial-body {
